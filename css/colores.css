@@ -1,0 +1,13 @@
+.enfatizado {
+    color: rgb(15, 28, 136);
+    font-weight: 700;
+}
+p.p-1-colores {
+    color: mintcream;
+}
+p.p-2-colores {
+    color: rgb(78, 233, 199);
+}
+p.p-3-colores {
+    color: #3E0E7E;
+}

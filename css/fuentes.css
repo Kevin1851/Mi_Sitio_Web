@@ -1,33 +1,41 @@
-p{
-    font-weight: 900; 
-    font-family: 'Dancing Script', cursive;
+h1.titulo-principal-index {
+    font-style: 'Roboto', italic;
 }
-h1 {font-style: italic;
-    font-size: 60px;
-}
-h2 {
-    font-size: 50px;
-}
-p {font-family: sans-serif;}
-/* almendra-regular - latin */
+/* roboto-regular - latin */
 @font-face {
-    font-family: 'Almendra';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/almendra-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v27-latin-regular.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('../fonts/almendra-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/almendra-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/almendra-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/almendra-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/almendra-v15-latin-regular.svg#Almendra') format('svg'); /* Legacy iOS */
+         url('../fonts/roboto-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v27-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
   }
-  p.fuente-almendra {
-      font-family: 'Almendra', sans-serif;
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v27-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v27-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v27-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v27-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v27-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v27-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
   }
-  p.fuente-almendra-2 {
-      color: green;
-      font-size: 100px;
-      font-family: 'Almendra', sans-serif;
-      text-align: center;
+  p.parrafo-1 {
+      font-family: cursive;
+      font-size: 25px;
   }
+  p.parrafo-2 {
+     font-family: 'Roboto', sans-serif;
+     font-size: 25px;
+  }
+  p.parrafo-3 {
+      font-size: 25px;
+      font-family: Georgia, 'Times New Roman', Times, serif
+  } 
