@@ -1,0 +1,31 @@
+body {
+    margin: 50px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    font-size: 1.4em;
+}
+.alineacion-izquierda {
+    text-align: left;
+}
+.alineacion-derecha {
+    text-align: right;
+}
+.alineacion-centrada {
+    text-align: center;
+}
+.alineacion-justificada {
+    text-align: justify;
+}
+blockquote {
+    font-size: 3em;
+    font-style: italic;
+    text-align: right;
+    border: 3px solid cadetblue;
+    margin: 0 0 0 18em;
+    padding: 15px;
+    background-color: cadetblue;
+    color: cornsilk;
+}
