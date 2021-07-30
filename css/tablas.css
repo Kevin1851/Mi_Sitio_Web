@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 3em;
+}
+table {
+    text-align: center;
+    margin: 0 auto;
+}
+td {
+    border: 3px solid white;
+    padding: 15px;
+    background-color: rgb(245, 245, 245);
+}
+.casilla-vacia {
+    border: 0;
+    background-color: white;
+}
+.titulo-caracteristica {
+    background-color: rgb(46, 88, 166);
+    font-size: 1.2em;
+    color: white;
+    border-radius: 5%;
+    border: none;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+th {
+    width: 250px;
+}
+.titulo-horizontal {
+    font-weight: 900;
+    font-size: 1.2em;
+}
