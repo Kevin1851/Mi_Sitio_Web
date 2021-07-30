@@ -3,7 +3,7 @@ ul.menu {
     font-family: 'Roboto', italic; 
     display: flex;  
     list-style-type: none;
-    background-color: ivory;
+    background-color: rgb(128, 128, 128);
     padding: 0%;
     justify-content: center;
 }
@@ -16,7 +16,7 @@ li.submenu:hover {
 }
 body{
     margin: 3%;
-    background-color: rgb(128, 128, 128);
+    background-color: ivory;
 }
 a{
     text-decoration: none;

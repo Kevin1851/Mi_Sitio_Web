@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+.img-halo { 
+    display: block;
+    margin: auto;
+}
+.img-avatares {
+display: inline;
+margin-left: -.8em 1em;
+}
+.contenido-avatares {
+    margin: 0 auto;
+    width: 1100px;
+}
+.avatar-individual {
+    display: inline-block;
+    margin-bottom: 2.5em;
+}
+p {
+    text-align: center;
+    font-size: 1.7em;
+    line-height: 0;
+    font-family: 'Georama', sans-serif;
+}
+.titulo-imagen {
+    font-weight: 900;
+}
