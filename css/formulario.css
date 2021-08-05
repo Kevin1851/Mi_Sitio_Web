@@ -1,0 +1,85 @@
+h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+fieldset {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+.formulario {
+    width: 80%;
+    display: block;
+    margin: 25px auto;
+    margin-bottom: 1.9em;
+}
+body {
+    font-family: 'Georama', sans-serif;
+    background: linear-gradient(to bottom, #0f2027, #203a43);
+    color: seashell;
+}
+.controls-check {
+    font-size: 1.3em;
+    margin-bottom: .8em;
+    border-radius: 5px;
+    border: none;
+    margin: auto auto 25px 25px;
+}
+.controls {
+    margin-bottom: 1.4em;
+    font-size: 1.3em;
+    color: rgb(64, 64, 64);
+    border-radius: 5px;
+    height: 60px;
+    width: 180px;
+    margin: 25px;
+    display: inline-block;
+    border: none;
+}
+label {
+    font-size: 1.3em;
+}
+.controls-button {
+    margin-bottom: 1.6em;
+    font-size: 1.3em;
+    color: white;
+    border-radius: 15px;
+    height: 50px;
+    width: 500px;
+    cursor: pointer;
+    background: #2C5364;
+    margin: auto;
+    border: none;
+}
+.controls-check-observaciones {
+    font-size: 1.3em;
+    margin-bottom: .8em;
+    border-radius: 5px;
+    border: none;
+    margin: 10px auto 25px 25px;
+    width: 420px;
+}
+.contenedor-interior {
+    margin-left: 25px;
+    display: block;
+}
+.controls-final {
+    margin-bottom: 1.4em;
+    font-size: 1.3em;
+    color: rgb(64, 64, 64);
+    border-radius: 5px;
+    height: 60px;
+    width: 180px;
+    display: block;
+    border: none;
+    margin-left: 25px;
+}
+.contenedor-interior-2 {
+    margin-left: 25px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.xd {
+    margin-left: 25px;
+}
