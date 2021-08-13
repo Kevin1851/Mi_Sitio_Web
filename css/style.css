@@ -1,46 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #2C5364;
+}
 ul.menu {
-    font-size: 30px; 
+    font-size: 1.5em; 
     font-family: 'Roboto', italic; 
-    display: flex;  
     list-style-type: none;
-    background-color: rgb(128, 128, 128);
-    padding: 0%;
-    justify-content: center;
+    padding: none;
+    text-align: center;
 }
 li.submenu {
     padding: 15px;
-    margin: 0px 4px 4px 0px;
+    display: inline-block;
 }
 li.submenu:hover {
-    background-color: rgb(128, 128, 128);
-}
-body{
-    margin: 3%;
-    background-color: ivory;
+    background-color: #23424d;
 }
 a{
     text-decoration: none;
-    color: #000;
+    color: rgb(245, 245, 240);
 }
 a:hover {
-    color: #fff;
+    color: rgb(255, 255, 255);
+}
+.main-content {
+    margin: 3em;
 }
 h1.titulo-principal-index {
-    font-size: 55px;
+    font-size: 35px;
     padding: 2% 0% 0% 0%;
     font-weight: 900;
 }
 h2.segundario-index {
-    font-size: 45px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 h2.segundario-index-2 {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: 40px;
+    font-size: 30px;
 }
 h1.titulo-fuentes {
-    font-size: 55px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(15, 28, 136);
 }
