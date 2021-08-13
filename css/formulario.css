@@ -60,10 +60,7 @@ label {
     margin: 10px auto 25px 25px;
     width: 90%;
 }
-.contenedor-interior {
-    margin-left: 25px;
-    display: inline-block;
-}
+
 .controls-final {
     margin-bottom: 1.4em;
     font-size: 1.3em;
@@ -75,10 +72,21 @@ label {
     border: none;
     margin-left: 25px;
 }
+.contenedor-dias-ips {
+/*     background: violet; */
+    display: block;
+}
+.contenedor-interior {
+    float: left;
+/*     background: red;    */
+    width: 50%;
+    height: 300px;
+}
 .contenedor-interior-2 {
-    margin-left: none;
-    display: inline-block;
-    padding-bottom: 20px;
+    float: left;
+/*     background: yellow; */
+    width: 50%;
+    height: 300px;
 }
 .xd {
     margin-left: 25px;
