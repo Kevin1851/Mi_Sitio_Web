@@ -27,6 +27,12 @@ h1.titulo-principal-index {
          url('../fonts/roboto-v27-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/roboto-v27-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
   }
+  h1.titulo-fuentes {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 227, 255);
+    font-weight: 600;
+}
   p.parrafo-1 {
       font-family: cursive;
       font-size: 25px;

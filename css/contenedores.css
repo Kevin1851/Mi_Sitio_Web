@@ -8,10 +8,7 @@ body{
 h1{
     text-align: center;
     font-family: 'Roboto', italic;
-    color: rgb(245, 245, 240);
     margin-top: 10px;
-}
-.box-mayor {
 }
 .main-box {
     display: block;

@@ -2,8 +2,16 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #17272c;
+}
 nav {
-    background-color: #2C5364;
+    background-color: #17465a;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: .3px 1px 5px rgba(255, 255, 255, 0.322);
+    cursor: pointer;
 }
 ul.menu {
     font-size: 1.5em; 
@@ -15,19 +23,25 @@ ul.menu {
 li.submenu {
     padding: 15px;
     display: inline-block;
+    transition: all .5s;
+    position: relative;
 }
 li.submenu:hover {
-    background-color: #23424d;
+    background-color: #10313d;
 }
 a{
     text-decoration: none;
-    color: rgb(245, 245, 240);
+    color: #f1f1f2eb;
+    display: block;
 }
 a:hover {
-    color: rgb(255, 255, 255);
+    color: #fff;
+    transition: all .5s;
 }
 .contenido-principal {
     margin: 3em;
+    color: #f1f1f2a1;
+    padding-top: 3%;
 }
 h1.titulo-principal-index {
     font-size: 35px;
@@ -43,10 +57,3 @@ h2.segundario-index-2 {
     font-style: italic;
     font-size: 30px;
 }
-h1.titulo-fuentes {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(15, 28, 136);
-}
-
-

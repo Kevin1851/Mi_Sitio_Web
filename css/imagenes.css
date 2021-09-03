@@ -8,7 +8,7 @@ h1 {
 }
 .img-avatares {
 display: inline;
-margin-left: -.8em 1em;
+border-radius: 3%;
 }
 .contenido-avatares {
     margin: 100px auto;
@@ -18,12 +18,18 @@ margin-left: -.8em 1em;
     display: inline-block;
     margin-bottom: 2.5em;
 }
+.solo-imagenes {
+    border-radius: 100%;
+    margin: 1.5em;
+}
 p {
     text-align: center;
     font-size: 1.7em;
     line-height: 0;
     font-family: 'Georama', sans-serif;
+    margin-top: .3em;
 }
 .titulo-imagen {
     font-weight: 900;
+    margin-bottom: .8em;
 }
